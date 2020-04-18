@@ -9,3 +9,8 @@ int getArgsCount()
 {
 	return 1;
 }
+
+void hello()
+{
+
+}
