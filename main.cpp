@@ -8,9 +8,9 @@ using std::string;
 int main(int argc, char *argv[])
 {
 	cout << "hello, git flow" << endl;
-	fstream fs("content.txt", std::fstream::in | std::fstream::out);
-	fs << "created by feature branch";
-	fs.close();
+	ofstream ofs("content.txt", std::ofstream::out);
+	ofs << "created by feature branch";
+	ofs.close();
 
 	return 0;
 }
