@@ -5,4 +5,7 @@
 
 using std::string;
 
-
+int getArgsCount()
+{
+	return 1;
+}
